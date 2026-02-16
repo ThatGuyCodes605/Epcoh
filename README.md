@@ -54,11 +54,3 @@ make clean
 # Uninstall
 sudo make uninstall
 ```
-
-## License
-
-Public Domain
-
-## Author
-
-ThatGuyCodes605
