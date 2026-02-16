@@ -12,7 +12,9 @@ int main(int argc, char *argv[])
             print_new_line = 1;
         }
         else {
-            printf("unknown option(s): valid option(s) are -nl\n");
+            printf("unknown option(s) valid option(s) are:\n");
+            printf("-nl : print a new line after the epoch time\n");
+            return 1;
         }
     }
     if (print_new_line == 1) {
